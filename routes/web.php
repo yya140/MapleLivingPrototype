@@ -18,3 +18,8 @@ Auth::routes();
 Route::get('/home', 'FrontendController@index')->name('home');
 
 Route::get('/back', 'BackendController@index')->middleware('auth');
+
+
+//HousingController
+Route::get('/createHousing', 'HousingController@createHousing');
+Route::post('/saveHousing', 'HousingController@saveHousing');

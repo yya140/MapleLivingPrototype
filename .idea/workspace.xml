@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abd5a40c-c091-418b-9a35-4273c64deb9f" name="Default Changelist" comment="" />
+    <list default="true" id="abd5a40c-c091-418b-9a35-4273c64deb9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/back/housing/createHousing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mapleliving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mapleliving.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +131,9 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/mongodb" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/vendor/mongodb/mongodb" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kqmWqgWcj6C2wM5d7IN8lhhJaS" />
@@ -187,5 +200,9 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="647" y="445" key="NewPhpFileDialog/0.23.1680.973@0.23.1680.973" timestamp="1606969941054" />
+    <state x="491" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1607228703593">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="491" y="243" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1607228703593" />
   </component>
 </project>
