@@ -1,5 +1,3 @@
-!-- carcreate.blade.php -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,9 +13,29 @@
     <h2>Laravel MongoDB CRUD Tutorial With Example</h2><br/>
     <div class="container">
     </div>
-    <form method="post" action="{{url('saveHousing')}}">
+    <form method="post" action="{{url('updateHousing')}}">
         @csrf
-
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="form-group col-md-4">
+                <label for="Carcompany">Car Company:</label>
+                <input type="text" class="form-control" name="carcompany">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="form-group col-md-4">
+                <label for="Model">Model:</label>
+                <input type="text" class="form-control" name="model">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="form-group col-md-4">
+                <label for="Price">Price:</label>
+                <input type="text" class="form-control" name="price">
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="form-group col-md-4">
