@@ -19,8 +19,8 @@ Route::get('/', 'FrontendController@index')->name('home');
 Route::get('/home', 'FrontendController@index')->name('home');
 
 //BackendController
-Route::get('/backHome', 'BackendController@backHome')->middleware('auth');
-Route::get('/createHousing', 'HousingController@createHousing')->middleware('auth');
-Route::post('/saveHousing', 'HousingController@saveHousing')->middleware('auth');
-Route::post('/updateHousing', 'HousingController@updateHousing')->middleware('auth');
-Route::get('/modifyHousing', 'HousingController@modifyHousing')->middleware('auth');
+Route::get('/backHome', 'BackendController@backHome')->middleware('auth')->name('backHome');
+Route::get('/createHousing', 'BackendController@createHousing')->middleware('auth');
+Route::post('/saveHousing', 'BackendController@saveHousing')->middleware('auth')->name('saveHousing');
+Route::post('/updateHousing', 'BackendController@updateHousing')->middleware('auth');
+Route::get('/modifyHousing', 'BackendController@modifyHousing')->middleware('auth');

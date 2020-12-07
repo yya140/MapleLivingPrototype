@@ -37,6 +37,9 @@
     <!-- FAVICON -->
     <link href="assets/img/favicon.png" rel="shortcut icon">
 
+
+    <!-- fileUpload -->
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -97,10 +100,7 @@
                         <li class="">
                             <a href="javascript:0">房源</a>
                         </li>
-
-
                     </ul>
-
 
                 </div>
 
@@ -108,6 +108,48 @@
         </nav>
 
     </header>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="dashboard-stie-admin.html">
+                            <i class="fa fa-tachometer" aria-hidden="true"></i> 控制台首页 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="admin-listings.html">
+                            <i class="fa fa-list-ul" aria-hidden="true"></i> 所有房源 </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="user-list-owners.html">
+                            <i class="fa fa-users" aria-hidden="true"></i> 租客群 </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="user-generals.html">
+                            <i class="fa fa-user-circle-o" aria-hidden="true"></i> 房东群 </a>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0 position-relative d-none d-md-block">
+                    <input class="form-control-sm" placeholder="搜索" aria-label="Search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     @yield('content')
 

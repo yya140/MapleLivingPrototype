@@ -14,8 +14,7 @@ class CreateHousingTable extends Migration
     public function up()
     {
         Schema::create('housing', function ($collection) {
-            $collection->index('testprimary');
-            $collection->unique('testunique');
+            $collection->index('address');
         });
     }
 
