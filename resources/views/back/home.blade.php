@@ -9,7 +9,8 @@
         <div class="container">
             <!-- Breadcrumb -->
             <nav class="bg-transparent breadcrumb breadcrumb-2 px-0 mb-5" aria-label="breadcrumb">
-                <h2 class="font-weight-normal mb-4 mb-md-0">所有房源</h2>
+                <h2 class="font-weight-normal mb-4 mb-md-0">所有房源 <a class="badge badge-warning text-white" href="{{ route('createHousing')}}">发布房源</a></h2>
+
                 <ul class="list-unstyled d-flex p-0 m-0">
                     <li class="breadcrumb-item"><a href="/">首页</a></li>
                     <li class="breadcrumb-item"><a href="/backHome">控制台</a></li>

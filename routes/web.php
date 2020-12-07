@@ -20,7 +20,7 @@ Route::get('/home', 'FrontendController@index')->name('home');
 
 //BackendController
 Route::get('/backHome', 'BackendController@backHome')->middleware('auth')->name('backHome');
-Route::get('/createHousing', 'BackendController@createHousing')->middleware('auth');
+Route::get('/createHousing', 'BackendController@createHousing')->middleware('auth')->name('createHousing');
 Route::post('/saveHousing', 'BackendController@saveHousing')->middleware('auth')->name('saveHousing');
 Route::post('/updateHousing', 'BackendController@updateHousing')->middleware('auth');
 Route::get('/modifyHousing', 'BackendController@modifyHousing')->middleware('auth');
